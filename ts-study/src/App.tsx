@@ -44,6 +44,13 @@ value = 10;
 let arrayUni: (number | string)[];
 arrayUni = [0, 1, 2, 'hello']
 
+//Literal type
+let company: 'Facebook' | 'Google' | 'Amazon'
+company = 'Amazon'
+
+let memory: 2576 | 512;
+memory = 2576;
+
 function App() {
   return (
     <div className="App">
