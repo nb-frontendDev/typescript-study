@@ -51,8 +51,17 @@ company = 'Amazon'
 let memory: 2576 | 512;
 memory = 2576;
 
+//typeof
+let msg: string = 'Hi';
+let msg2: typeof msg;
+msg2 = 'Hi'
 
-
+let animal = {
+  cat: 'small cat',
+};
+let newAnimal: typeof animal = {
+  cat: 'big cat'
+}
 
 //keyof
 type KEYS = {
