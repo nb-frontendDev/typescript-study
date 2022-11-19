@@ -51,6 +51,29 @@ company = 'Amazon'
 let memory: 2576 | 512;
 memory = 2576;
 
+
+
+
+//keyof
+type KEYS = {
+  primary: string;
+  secondary: string;
+}
+
+let key: keyof KEYS
+key = 'primary'
+
+//typeof keyofの組み合わせ
+const SPORTS = {
+  soccer: 'Soccer',
+  baseball: 'baseball'
+};
+
+let keySports: keyof typeof SPORTS;
+keySports = 'baseball';
+
+
+
 function App() {
   return (
     <div className="App">
