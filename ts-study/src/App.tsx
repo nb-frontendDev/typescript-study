@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import TestComponent from './TestComponent';
 
 interface NAME { 
   first: string;
@@ -161,11 +162,12 @@ const GEN9 = GEN3({
 
 
 
-function App() {
+
+const  App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-       
+        <TestComponent text='Hello Typescript' />
       </header>
     </div>
   );
